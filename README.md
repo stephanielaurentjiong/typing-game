@@ -1,1 +1,1 @@
-# typing-game
+# Chinese-typing-game
