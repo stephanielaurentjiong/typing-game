@@ -1,0 +1,17 @@
+<body>
+  <div class="game-container">
+    <h1>Type the Words:</h1>
+    <button id="startButton">Start</button>
+    <div id="game" style="display:none;">
+      <p id="countdown"></p>
+      <p class="word"></p>
+      <input type="text" id="userInput" autofocus>
+      <p class="score">Score: <span id="score">0</span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script>
+    const wordsLevel2 = ['小姐', '先生', '我们', '你们', '他们', '她们', '学习', '工作', '学校', '朋友'];
+    initGame(wordsLevel2);
+  </script>
+</body>

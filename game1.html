@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Type the Words:</h1>
+    <button id="startButton">Start</button>
+    <div id="game" style="display:none;">
+      <p id="countdown"></p>
+      <p class="word"></p>
+      <input type="text" id="userInput" autofocus>
+      <p class="score">Score: <span id="score">0</span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script>
+    const wordsLevel1 = ['我', '你', '她', '他', '叫', '什么', '名字', '姓', '好', '呢', '小姐', '先生', '小', '很', '高兴', '认识', '也', '吗', '嗯', '不', '是', '中国', '印尼', '人', '北京', '上海', '在', '这里', '要', '去', '哪里', '的', '工作', '中文', '老师', '老', '这', '做', '学校', '谢谢', '哥哥', '看', '们','来', '爸爸', '妈妈', '弟弟', '妹妹', '姐姐', '家', '又', '那'];
+    initGame(wordsLevel1);
+  </script>
+</body>
+</html>
